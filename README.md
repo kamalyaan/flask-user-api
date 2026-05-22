@@ -1,15 +1,15 @@
 # Flask User API 🚀
 
-My first REST API built entirely on Android phone
+My first REST API built entirely on Android phone using Termux
 
 ## API Endpoints
-| Method | Endpoint | Work |
+| Method | Endpoint | Description |
 | --- | --- | --- |
-| POST | /users | Naya user banao |
-| GET | /users | Saare users dekho |
-| GET | /users/<id> | 1 user dekho |
-| PUT | /users/<id> | User update karo |
-| DELETE | /users/<id> | User delete karo |
+| POST | /users | Create a new user |
+| GET | /users | Get all users |
+| GET | /users/<id> | Get a single user by ID |
+| PUT | /users/<id> | Update a user by ID |
+| DELETE | /users/<id> | Delete a user by ID |
 
 ## Tech Stack
 Python, Flask, Flask-SQLAlchemy, SQLite
